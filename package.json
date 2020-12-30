@@ -1,0 +1,36 @@
+{
+  "name": "chatbeaver",
+  "version": "1.0.0",
+  "description": "A new Flutter project.",
+  "main": "./lib/functions/",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.2",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.6",
+    "socket.io": "^3.0.4",
+    "utf-8-validate": "^5.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon lib/functions/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdelrhman9623/chatBeaver.git"
+  },
+  "keywords": [
+    "chatBeaver"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdelrhman9623/chatBeaver/issues"
+  },
+  "homepage": "https://github.com/Abdelrhman9623/chatBeaver#readme"
+}
